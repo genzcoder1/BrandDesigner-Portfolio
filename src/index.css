@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+};
+
+
+html,body{
+width: 100%;
+height: 100%;
+background: #010101;
+color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+@font-face {
+    font-family: "One";
+    src: url('assets/fonts/6804c6e6e59f54740751a4b4_SuisseIntl-Regular.otf');
+}
+
+@font-face {
+    font-family: "Two";
+    src: url('assets/fonts/6804c70ca4cba424283a3d78_SuisseIntl-Book.otf');
+}
+
+@font-face {
+    font-family: "Three";
+    src: url('assets/fonts/6804c760eed6c111d8b88416_Apparel-RegularIt.woff2');
+}
+
+
+.One{
+    font-family: "One";
+}
+
+.Two{
+    font-family: "Two";
+}
+
+.Three{
+    font-family: "Three";
+}
